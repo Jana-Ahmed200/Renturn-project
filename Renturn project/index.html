@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Renturn</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo"><img src="photos/renturn logo.png" alt="logo"></div>
+      <div class="search">
+        <input type="text" placeholder="Search for a product" />
+        <i class="fa-solid fa-search"></i>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="about.html">About Us</a>
+
+      <button class="nav-btn" onclick="window.location='cart.html'">
+  <i class="fa-solid fa-cart-shopping"></i>
+</button>
+
+<button class="nav-btn" onclick="window.location='login.html'">
+  <i class="fa-solid fa-user"></i>
+</button>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- Categories Bar -->
+ 
+
+<div class="categories">
+  <div class="container">
+    <img src="photos/Categorize.png" class="Categorize" id="Categorize"> 
+    <a href="#">categories :</a>
+
+    <div class="cat-wrapper">
+      <button id="leftArrow" class="arrow"><i class="fa-solid fa-chevron-left"></i></button>
+
+      <div class="category-buttons" id="categoryScroll">
+        <button onclick="window.location='event.html'"><img src="photos/Confetti.png" alt="Confetti"> Event supplies</button>
+        <button onclick="window.location='clothes.html'"><img src="photos/Clothes.png" alt=""> Clothes</button>
+        <button onclick="window.location='electronics.html'"><img src="photos/Electronic.png" alt=""> Electronics</button>
+        <button onclick="window.location='tools.html'"><img src="photos/Equipment.png" alt=""> Tools & Equipment</button>
+      </div>
+
+      <button id="rightArrow" class="arrow"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- hero -->
+
+  <section class="hero">
+    <div class="slide active">
+      <div class="content">
+        <h2>Rent Anything, Anytime</h2>
+        <p>
+            Smart, flexible and affordable rental services for everyone .
+          <br />  Find what 
+          you need without the commitment of buying.
+        </p>
+      </div>
+      <img src="photos/hero.png" alt="slide" />
+    </div>
+    <div class="slide">
+      <div class="content">
+        <h2>Quick Delivery To Your Doorstep</h2>
+        <p>Fast & easy delivery for every rental order.</p>
+      </div>
+      <img src="photos/fast delivery.jpg" alt="slide2" />
+    </div>
+    <div class="slide">
+      <div class="content">
+        <h2>From Tools to Fashion</h2>
+        <p>Rent tools, clothes and electronics — no need to buy!.</p>
+      </div>
+      <img src="photos/tools.jpg" alt="slide3" />
+    </div>
+    <div class="dots"></div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why">
+    <h2 class="animate-title">
+  <span>W</span><span>h</span><span>y</span> <span> </span><span>C</span><span>h</span><span>o</span><span>o</span><span>s</span><span>e</span>
+  <span> </span><span>R</span><span>e</span><span>n</span><span>t</span><span>u</span><span>r</span><span>n</span>
+  <span>?</span>
+</h2>
+
+    <div class="cards">
+      <div class="card">
+        <i class="fa-solid fa-dollar-sign"></i>
+        <h3>Affordable Rates</h3>
+        <p>competitive daily and weekly rates that save you money compared to buying expensive tools.</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-user"></i>
+        <h3>Quality Guaranteed</h3>
+        <p>All our tools are professionally maintained and inspected before every rental.</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Quick & Easy</h3>
+        <p>Reserve online and pick up the same day. Simple booking process with flexible terms</p>
+      </div>
+    </div>
+  </section>
+
+ <script src="main.js"></script>
+
+</body>
+</html>
